@@ -178,6 +178,17 @@ kata17result.append(smallNumber)
 
 
 // kata 18
+let largeNumber = simpleArray[0]
+for (let index = 1; index <simpleArray.length; index++){
+    if (simpleArray[index] < largeNumber){
+        largeNumber = simpleArray[index]
+    }   
+}
+const kata18result= document.querySelector('#id18')
+kata18result.append(largeNumber)
+
+// Done with Desmond Obiri-Yeboah and Terry Hanratta
+
 
 
 
